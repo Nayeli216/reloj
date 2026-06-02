@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reloj</title>
+</head>
+
+<body style="text-align:center; font-family:Arial;">
+
+  <h2>Reloj</h2>
+
+  <input type="number" id="inputH" placeholder="HH">
+  <input type="number" id="inputM" placeholder="MM">
+  <input type="number" id="inputS" placeholder="SS">
+  <br><br>
+
+  <button onclick="drawRelojCuadrado()">Reloj</button>
+  <button onclick="aplicarHoraManualCuadrado()">Hora Manual</button>
+  <button onclick="clearCanvas()">Limpiar</button>
+
+  <br><br>
+
+  <canvas id="myCanvas" width="800" height="500" style="border:2px solid black;"></canvas>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
